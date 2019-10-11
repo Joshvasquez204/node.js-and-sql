@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
 	port: "3306",
 	user: "root",
 	password: "",
-	database: "bamazon_db"
+	database: "amazon_db"
 });
 
 connection.query("SELECT * FROM products", function (err, res) {
